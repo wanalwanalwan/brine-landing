@@ -1,30 +1,28 @@
 <script setup>
-const screenshots = [
-  { label: 'Skill List', emoji: '📋' },
-  { label: 'Skill Detail', emoji: '🎯' },
-  { label: 'Progress Charts', emoji: '📈' },
-  { label: 'Achievements', emoji: '🏆' },
-  { label: 'Categories', emoji: '📂' },
+const screens = [
+  { label: 'Track', emoji: '📊', color: 'text-teal' },
+  { label: 'Rate', emoji: '🎯', color: 'text-teal' },
+  { label: 'Improve', emoji: '📈', color: 'text-teal' },
 ]
 </script>
 
 <template>
-  <section class="py-24 px-6">
-    <div class="max-w-5xl mx-auto">
-      <h2 class="text-3xl md:text-4xl font-bold font-rounded text-dark text-center tracking-tight">
-        See it in action
-      </h2>
-      <p class="text-muted font-rounded text-center mt-4 mb-16">
-        Clean design that makes tracking effortless.
-      </p>
-      <div class="flex gap-4 overflow-x-auto pb-4 snap-x snap-mandatory scrollbar-hide">
-        <div
-          v-for="shot in screenshots"
-          :key="shot.label"
-          class="flex-shrink-0 w-52 aspect-[9/16] bg-cream rounded-3xl border border-black/5 flex flex-col items-center justify-center snap-center"
-        >
-          <div class="text-4xl mb-3">{{ shot.emoji }}</div>
-          <p class="text-xs text-muted font-rounded font-medium">{{ shot.label }}</p>
+  <section class="pb-24 px-8">
+    <div class="max-w-6xl mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div v-for="screen in screens" :key="screen.label" class="flex flex-col items-center">
+          <div class="w-full aspect-[9/16] bg-cream rounded-[2rem] flex items-center justify-center">
+            <div class="text-center">
+              <div class="text-6xl mb-3">{{ screen.emoji }}</div>
+              <p class="text-xs text-muted/50 font-rounded">Screenshot coming soon</p>
+            </div>
+          </div>
+          <div class="mt-4 flex items-center gap-2">
+            <span class="w-5 h-5 rounded-full bg-teal/15 flex items-center justify-center">
+              <span class="w-2 h-2 rounded-full bg-teal"></span>
+            </span>
+            <span :class="['text-sm font-semibold font-rounded', screen.color]">{{ screen.label }}</span>
+          </div>
         </div>
       </div>
     </div>

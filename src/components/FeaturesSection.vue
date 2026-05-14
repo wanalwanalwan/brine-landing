@@ -36,15 +36,15 @@ const features = [
 </script>
 
 <template>
-  <section class="py-24 px-6 bg-cream">
-    <div class="max-w-5xl mx-auto">
-      <h2 class="text-3xl md:text-4xl font-bold font-rounded text-dark text-center tracking-tight">
-        Everything you need to improve
+  <section class="py-24 px-8">
+    <div class="max-w-6xl mx-auto">
+      <div class="max-w-6xl mx-auto px-0 mb-16">
+        <div class="border-b border-black/8"></div>
+      </div>
+      <h2 class="text-4xl md:text-5xl font-bold font-rounded text-dark tracking-tight leading-[1.1]">
+        Everything you need<br />to improve your game.
       </h2>
-      <p class="text-muted font-rounded text-center mt-4 mb-16 max-w-lg mx-auto">
-        Tools designed for players who want to get better.
-      </p>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 mt-16">
         <FeatureCard
           v-for="feature in features"
           :key="feature.title"
