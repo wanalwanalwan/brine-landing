@@ -28,19 +28,20 @@ const features = [
 <template>
   <section class="py-24 px-8">
     <div class="max-w-6xl mx-auto">
-      <div class="mb-16">
+      <div class="fade-up mb-16">
         <div class="border-b border-black/8"></div>
       </div>
-      <h2 class="text-4xl md:text-5xl font-bold font-rounded text-dark tracking-tight leading-[1.1]">
+      <h2 class="fade-up text-4xl md:text-5xl font-bold font-rounded text-dark tracking-tight leading-[1.1]">
         Everything you need<br />to improve your game.
       </h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-1 mt-16">
         <FeatureCard
-          v-for="feature in features"
+          v-for="(feature, index) in features"
           :key="feature.title"
           :icon="feature.icon"
           :title="feature.title"
           :description="feature.description"
+          :class="['fade-up', `fade-up-delay-${index + 1}`]"
         />
       </div>
     </div>
