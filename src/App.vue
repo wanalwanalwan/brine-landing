@@ -1,0 +1,21 @@
+<script setup>
+import NavBar from './components/NavBar.vue'
+import HeroSection from './components/HeroSection.vue'
+import FeaturesSection from './components/FeaturesSection.vue'
+import ScreenshotsSection from './components/ScreenshotsSection.vue'
+import CtaSection from './components/CtaSection.vue'
+import FooterSection from './components/FooterSection.vue'
+</script>
+
+<template>
+  <div class="min-h-screen bg-cream font-rounded">
+    <NavBar />
+    <main>
+      <HeroSection />
+      <FeaturesSection />
+      <ScreenshotsSection />
+      <CtaSection />
+    </main>
+    <FooterSection />
+  </div>
+</template>
