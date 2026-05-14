@@ -27,7 +27,7 @@
       <div class="flex-1 flex justify-center">
         <div class="w-72 h-[580px] bg-white rounded-[3rem] shadow-2xl border-4 border-gray-200 flex items-center justify-center overflow-hidden">
           <div class="text-center text-muted font-rounded p-8">
-            <div class="text-6xl mb-4">🏓</div>
+            <img src="/dino-logo.png" alt="Brine coach mascot" class="w-32 h-32 mx-auto mb-4" />
             <p class="text-sm">App screenshot coming soon</p>
           </div>
         </div>
