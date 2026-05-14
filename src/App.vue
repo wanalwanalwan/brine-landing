@@ -8,7 +8,7 @@ import FooterSection from './components/FooterSection.vue'
 </script>
 
 <template>
-  <div class="min-h-screen bg-cream font-rounded">
+  <div class="min-h-screen bg-white font-rounded antialiased">
     <NavBar />
     <main>
       <HeroSection />

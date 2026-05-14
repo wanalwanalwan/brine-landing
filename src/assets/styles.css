@@ -1,18 +1,18 @@
 @import "tailwindcss";
 
 @theme {
-  --color-cream: #FFF8F0;
+  --color-cream: #F5F5F7;
   --color-teal: #2AA6A0;
   --color-teal-dark: #228A85;
   --color-coral: #E8756A;
   --color-coral-dark: #D4635A;
   --color-success: #34C759;
-  --color-dark: #1A1A2E;
-  --color-muted: #6B7280;
+  --color-dark: #1D1D1F;
+  --color-muted: #86868B;
 
-  --font-rounded: "Nunito", ui-rounded, system-ui, sans-serif;
+  --font-rounded: "Inter", -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", system-ui, sans-serif;
 
-  --radius-card: 16px;
+  --radius-card: 20px;
 
   --spacing-1: 4px;
   --spacing-2: 8px;
