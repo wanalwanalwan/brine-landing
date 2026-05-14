@@ -2,6 +2,7 @@
 import { onMounted } from 'vue'
 import NavBar from './components/NavBar.vue'
 import HeroSection from './components/HeroSection.vue'
+import ShowcaseSection from './components/ShowcaseSection.vue'
 import FeaturesSection from './components/FeaturesSection.vue'
 import CtaSection from './components/CtaSection.vue'
 import FooterSection from './components/FooterSection.vue'
@@ -29,6 +30,7 @@ onMounted(() => {
     <NavBar />
     <main>
       <HeroSection />
+      <ShowcaseSection />
       <FeaturesSection />
       <CtaSection />
     </main>
