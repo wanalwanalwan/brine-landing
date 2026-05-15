@@ -6,10 +6,10 @@
       </div>
       <div class="text-center">
         <h2 class="fade-up text-4xl md:text-5xl font-bold font-rounded text-dark tracking-tight leading-[1.1]">
-          Ready to level up<br />your game?
+          Ready to stop<br />guessing?
         </h2>
         <p class="fade-up fade-up-delay-1 text-muted font-rounded mt-6 mb-10 text-lg">
-          Download Brine and start tracking your pickleball skills today.
+          See where you stand and what to practice next.
         </p>
         <div class="fade-up fade-up-delay-2">
           <a

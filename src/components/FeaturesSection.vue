@@ -5,22 +5,22 @@ const features = [
   {
     icon: '🤖',
     title: 'AI Coach',
-    description: 'Log sessions in natural language. Get intelligent analysis, feedback, and personalized recommendations.',
+    description: 'Tell Brine what you practiced. It updates your skills, spots weaknesses, and tells you exactly what to work on next.',
   },
   {
     icon: '📊',
-    title: 'Skill Tracking',
-    description: 'Rate skills 0-100% across categories like dinking, drives, defense, and strategy. Track progress over time.',
+    title: 'Skill Ratings',
+    description: 'Every part of your game rated 0-100%. See exactly where you\'re strong and where you\'re falling behind.',
   },
   {
     icon: '🏋️',
-    title: 'Drills',
-    description: 'AI-generated practice drills tailored to your weakest skills. Track reps and completion.',
+    title: 'Targeted Drills',
+    description: 'Stop wasting time on random practice. Get AI-generated drills that target your weakest skills first.',
   },
   {
     icon: '📖',
-    title: 'Timeline',
-    description: 'A complete journal of every session, skill update, and coach insight — all in one place.',
+    title: 'Progress Timeline',
+    description: 'Every session, every skill change, every insight — proof that your game is growing.',
   },
 ]
 </script>
@@ -32,7 +32,7 @@ const features = [
         <div class="border-b border-black/8"></div>
       </div>
       <h2 class="fade-up text-4xl md:text-5xl font-bold font-rounded text-dark tracking-tight leading-[1.1]">
-        Everything you need<br />to improve your game.
+        How Brine makes<br />you better.
       </h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-1 mt-16">
         <FeatureCard

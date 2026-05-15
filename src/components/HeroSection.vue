@@ -44,7 +44,7 @@
             <span class="text-xs font-semibold text-dark">AI Coach</span>
           </div>
           <div class="text-xs text-muted leading-relaxed">
-            "Great session! Your dinking consistency is improving. Try the cross-court drill next."
+            "Your Drops are at 52%. Try cross-court dinks — 3 sets of 10 reps."
           </div>
         </div>
 
@@ -64,11 +64,11 @@
       <!-- Center content -->
       <div class="text-center max-w-2xl mx-auto relative z-10">
         <h1 class="fade-up text-5xl md:text-7xl font-bold font-rounded text-dark tracking-tight leading-[1.1]">
-          Track, rate, improve.<br />
-          All in one app.
+          Stop guessing<br />
+          what to practice.
         </h1>
         <p class="fade-up fade-up-delay-1 mt-8 text-lg md:text-xl text-muted font-rounded leading-relaxed max-w-lg mx-auto">
-          Rate your pickleball game, track progress with custom checklists, and watch yourself improve over time.
+          Brine rates your pickleball skills, finds your weaknesses, and builds AI-powered drills to fix them.
         </p>
         <div class="fade-up fade-up-delay-2 mt-10">
           <a
