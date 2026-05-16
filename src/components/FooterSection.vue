@@ -1,5 +1,5 @@
 <template>
-  <footer class="py-10 px-8 bg-dark">
+  <footer class="py-10 px-6 md:px-8 bg-dark">
     <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
       <div class="flex items-center gap-2.5 font-rounded font-semibold text-white">
         <img src="/dino-logo.png" alt="Brine mascot" class="w-6 h-6" />

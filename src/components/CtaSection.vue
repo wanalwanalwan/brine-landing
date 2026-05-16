@@ -1,14 +1,14 @@
 <template>
-  <section class="py-24 px-8">
+  <section class="py-16 md:py-24 px-6 md:px-8">
     <div class="max-w-6xl mx-auto">
-      <div class="fade-up mb-16">
+      <div class="fade-up mb-12 md:mb-16">
         <div class="border-b border-black/8"></div>
       </div>
       <div class="text-center">
-        <h2 class="fade-up text-4xl md:text-5xl font-bold font-rounded text-dark tracking-tight leading-[1.1]">
+        <h2 class="fade-up text-3xl md:text-5xl font-bold font-rounded text-dark tracking-tight leading-[1.1]">
           Ready to stop<br />guessing?
         </h2>
-        <p class="fade-up fade-up-delay-1 text-muted font-rounded mt-6 mb-10 text-lg">
+        <p class="fade-up fade-up-delay-1 text-muted font-rounded mt-5 md:mt-6 mb-8 md:mb-10 text-base md:text-lg">
           See where you stand and what to practice next.
         </p>
         <div class="fade-up fade-up-delay-2">

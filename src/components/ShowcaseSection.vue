@@ -1,15 +1,15 @@
 <template>
-  <section class="py-24 px-8">
+  <section class="py-16 md:py-24 px-6 md:px-8">
     <div class="max-w-6xl mx-auto">
-      <div class="fade-up mb-16">
+      <div class="fade-up mb-12 md:mb-16">
         <div class="border-b border-black/8"></div>
       </div>
-      <h2 class="fade-up text-4xl md:text-5xl font-bold font-rounded text-dark tracking-tight leading-[1.1]">
+      <h2 class="fade-up text-3xl md:text-5xl font-bold font-rounded text-dark tracking-tight leading-[1.1]">
         Know your game<br />inside out.
       </h2>
 
       <!-- Bento grid -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-16">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4 mt-10 md:mt-16">
 
         <!-- Your AI Coach — tall card, spans 2 rows -->
         <div class="fade-up fade-up-delay-1 md:row-span-2 rounded-[20px] border border-black/8 overflow-hidden flex flex-col">

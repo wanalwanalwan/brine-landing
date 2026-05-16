@@ -7,7 +7,7 @@ import MockupSkills from './MockupSkills.vue'
 </script>
 
 <template>
-  <section class="px-8">
+  <section class="px-6 md:px-8">
     <div class="max-w-6xl mx-auto">
 
       <!-- Section 1: AI Agent — phone left, text right -->

@@ -1,7 +1,7 @@
 <template>
-  <section class="pt-20 pb-24 px-8 overflow-hidden">
+  <section class="pt-16 md:pt-20 pb-16 md:pb-24 px-6 md:px-8 overflow-hidden">
     <div class="max-w-6xl mx-auto relative">
-      <!-- Left UI elements -->
+      <!-- Left UI elements (desktop only) -->
       <div class="hidden lg:block absolute left-0 top-8 w-64">
         <!-- Skill rating card -->
         <div class="float-slow bg-white rounded-2xl shadow-lg shadow-black/5 border border-black/5 p-4 mb-4 -rotate-3">
@@ -33,7 +33,7 @@
         </div>
       </div>
 
-      <!-- Right UI elements -->
+      <!-- Right UI elements (desktop only) -->
       <div class="hidden lg:block absolute right-0 top-4 w-64">
         <!-- AI coach card -->
         <div class="float-medium bg-white rounded-2xl shadow-lg shadow-black/5 border border-black/5 p-4 mb-4 rotate-3">
@@ -63,14 +63,14 @@
 
       <!-- Center content -->
       <div class="text-center max-w-2xl mx-auto relative z-10">
-        <h1 class="fade-up text-5xl md:text-7xl font-bold font-rounded text-dark tracking-tight leading-[1.1]">
+        <h1 class="fade-up text-4xl md:text-7xl font-bold font-rounded text-dark tracking-tight leading-[1.1]">
           Stop guessing<br />
           what to practice.
         </h1>
-        <p class="fade-up fade-up-delay-1 mt-8 text-lg md:text-xl text-muted font-rounded leading-relaxed max-w-lg mx-auto">
+        <p class="fade-up fade-up-delay-1 mt-6 md:mt-8 text-base md:text-xl text-muted font-rounded leading-relaxed max-w-lg mx-auto">
           Brine rates your pickleball skills, finds your weaknesses, and builds AI-powered drills to fix them.
         </p>
-        <div class="fade-up fade-up-delay-2 mt-10">
+        <div class="fade-up fade-up-delay-2 mt-8 md:mt-10">
           <a
             href="https://apps.apple.com/app/brine"
             target="_blank"
@@ -82,6 +82,63 @@
             </svg>
             Download on iOS
           </a>
+        </div>
+      </div>
+
+      <!-- Mobile preview cards (visible below lg) -->
+      <div class="lg:hidden flex gap-3 mt-10 overflow-x-auto pb-2 -mx-6 px-6 snap-x snap-mandatory scrollbar-hide">
+        <!-- Skill card -->
+        <div class="bg-white rounded-xl shadow-sm shadow-black/5 border border-black/5 p-3.5 min-w-[200px] snap-start shrink-0">
+          <div class="flex items-center gap-2.5 mb-2">
+            <div class="w-7 h-7 rounded-full bg-teal/10 flex items-center justify-center text-xs">🎯</div>
+            <div>
+              <div class="text-[11px] font-semibold text-dark">Dinking</div>
+              <div class="text-[9px] text-muted">Updated today</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-2">
+            <div class="flex-1 h-1.5 bg-cream rounded-full overflow-hidden">
+              <div class="h-full bg-teal rounded-full" style="width: 72%"></div>
+            </div>
+            <span class="text-[10px] font-semibold text-teal">72%</span>
+          </div>
+        </div>
+
+        <!-- AI Coach card -->
+        <div class="bg-white rounded-xl shadow-sm shadow-black/5 border border-black/5 p-3.5 min-w-[200px] snap-start shrink-0">
+          <div class="flex items-center gap-1.5 mb-1.5">
+            <div class="w-5 h-5 rounded-full bg-dark flex items-center justify-center">
+              <span class="text-[8px]">🤖</span>
+            </div>
+            <span class="text-[11px] font-semibold text-dark">AI Coach</span>
+          </div>
+          <div class="text-[10px] text-muted leading-snug">
+            "Your Drops are at 52%. Try cross-court dinks."
+          </div>
+        </div>
+
+        <!-- Timeline card -->
+        <div class="bg-white rounded-xl shadow-sm shadow-black/5 border border-black/5 p-3.5 min-w-[200px] snap-start shrink-0">
+          <div class="text-[9px] text-muted mb-1">Today, 3:15 PM</div>
+          <div class="text-[10px] text-dark font-medium leading-snug">
+            "Worked on dinks and drops for an hour"
+          </div>
+          <div class="mt-1.5 flex gap-1">
+            <span class="text-[9px] bg-teal/10 text-teal px-1.5 py-0.5 rounded-full font-medium">+3% Dinking</span>
+            <span class="text-[9px] bg-teal/10 text-teal px-1.5 py-0.5 rounded-full font-medium">+5% Drops</span>
+          </div>
+        </div>
+
+        <!-- Drill card -->
+        <div class="bg-white rounded-xl shadow-sm shadow-black/5 border border-black/5 p-3.5 min-w-[200px] snap-start shrink-0">
+          <div class="flex items-center justify-between mb-1.5">
+            <span class="text-[11px] font-semibold text-dark">Cross-Court Dinks</span>
+            <span class="text-[8px] bg-coral/10 text-coral px-1.5 py-0.5 rounded-full font-medium">Priority</span>
+          </div>
+          <div class="text-[9px] text-muted mb-1.5">15 reps remaining</div>
+          <div class="h-1 bg-cream rounded-full overflow-hidden">
+            <div class="h-full bg-coral rounded-full" style="width: 40%"></div>
+          </div>
         </div>
       </div>
     </div>
