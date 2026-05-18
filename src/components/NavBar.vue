@@ -5,9 +5,8 @@ const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' })
 <template>
   <nav class="bg-cream">
     <div class="max-w-6xl mx-auto px-6 md:px-8 h-14 md:h-16 flex items-center justify-between">
-      <button @click="scrollToTop" class="flex items-center gap-1.5 md:gap-2 text-[15px] md:text-base font-semibold font-rounded text-dark tracking-tight">
-        <img src="/brine-logo.png" alt="Brine mascot" class="w-5 h-5 md:w-6 md:h-6 opacity-80 saturate-50 brightness-75" />
-        Brine
+      <button @click="scrollToTop" class="text-[15px] md:text-base font-bold font-rounded text-teal tracking-tight">
+        brine
       </button>
       <a
         href="https://apps.apple.com/app/brine"
