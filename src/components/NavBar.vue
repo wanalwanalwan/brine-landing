@@ -3,10 +3,10 @@ const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' })
 </script>
 
 <template>
-  <nav class="bg-white">
+  <nav class="bg-cream">
     <div class="max-w-6xl mx-auto px-6 md:px-8 h-14 md:h-16 flex items-center justify-between">
       <button @click="scrollToTop" class="flex items-center gap-2 md:gap-2.5 text-base md:text-lg font-semibold font-rounded text-dark tracking-tight">
-        <img src="/dino-logo.png" alt="Brine mascot" class="w-6 h-6 md:w-7 md:h-7" />
+        <img src="/brine-logo.png" alt="Brine mascot" class="w-6 h-6 md:w-7 md:h-7" />
         Brine
       </button>
       <a

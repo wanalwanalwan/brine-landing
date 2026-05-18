@@ -31,6 +31,15 @@
             <span class="text-[10px] bg-teal/10 text-teal px-2 py-0.5 rounded-full font-medium">+5% Drops</span>
           </div>
         </div>
+
+        <!-- Streak card -->
+        <div class="float-slow bg-white rounded-2xl shadow-lg shadow-black/5 border border-black/5 p-4 -ml-2 -rotate-1 mt-4">
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-sm">🔥</span>
+            <span class="text-xs font-semibold text-dark">7-Day Streak</span>
+          </div>
+          <div class="text-[10px] text-muted">You've practiced every day this week. Keep it up!</div>
+        </div>
       </div>
 
       <!-- Right UI elements (desktop only) -->
@@ -57,6 +66,28 @@
           <div class="text-[10px] text-muted mb-2">15 reps remaining</div>
           <div class="h-1.5 bg-cream rounded-full overflow-hidden">
             <div class="h-full bg-coral rounded-full" style="width: 40%"></div>
+          </div>
+        </div>
+
+        <!-- Progress card -->
+        <div class="float-medium bg-white rounded-2xl shadow-lg shadow-black/5 border border-black/5 p-4 -ml-2 rotate-1 mt-4">
+          <div class="flex items-center gap-2 mb-2">
+            <span class="text-sm">📈</span>
+            <span class="text-xs font-semibold text-dark">Weekly Progress</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="text-[10px] text-muted">Serves</div>
+            <div class="flex-1 h-1.5 bg-cream rounded-full overflow-hidden">
+              <div class="h-full bg-success rounded-full" style="width: 68%"></div>
+            </div>
+            <span class="text-[10px] font-semibold text-success">+8%</span>
+          </div>
+          <div class="flex items-center gap-3 mt-1.5">
+            <div class="text-[10px] text-muted">Volleys</div>
+            <div class="flex-1 h-1.5 bg-cream rounded-full overflow-hidden">
+              <div class="h-full bg-success rounded-full" style="width: 45%"></div>
+            </div>
+            <span class="text-[10px] font-semibold text-success">+5%</span>
           </div>
         </div>
       </div>
@@ -138,6 +169,37 @@
           <div class="text-[9px] text-muted mb-1.5">15 reps remaining</div>
           <div class="h-1 bg-cream rounded-full overflow-hidden">
             <div class="h-full bg-coral rounded-full" style="width: 40%"></div>
+          </div>
+        </div>
+
+        <!-- Streak card -->
+        <div class="bg-white rounded-xl shadow-sm shadow-black/5 border border-black/5 p-3.5 min-w-[200px] snap-start shrink-0">
+          <div class="flex items-center gap-1.5 mb-1">
+            <span class="text-xs">🔥</span>
+            <span class="text-[11px] font-semibold text-dark">7-Day Streak</span>
+          </div>
+          <div class="text-[9px] text-muted leading-snug">You've practiced every day this week!</div>
+        </div>
+
+        <!-- Progress card -->
+        <div class="bg-white rounded-xl shadow-sm shadow-black/5 border border-black/5 p-3.5 min-w-[200px] snap-start shrink-0">
+          <div class="flex items-center gap-1.5 mb-1.5">
+            <span class="text-xs">📈</span>
+            <span class="text-[11px] font-semibold text-dark">Weekly Progress</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <div class="text-[9px] text-muted">Serves</div>
+            <div class="flex-1 h-1 bg-cream rounded-full overflow-hidden">
+              <div class="h-full bg-success rounded-full" style="width: 68%"></div>
+            </div>
+            <span class="text-[9px] font-semibold text-success">+8%</span>
+          </div>
+          <div class="flex items-center gap-2 mt-1">
+            <div class="text-[9px] text-muted">Volleys</div>
+            <div class="flex-1 h-1 bg-cream rounded-full overflow-hidden">
+              <div class="h-full bg-success rounded-full" style="width: 45%"></div>
+            </div>
+            <span class="text-[9px] font-semibold text-success">+5%</span>
           </div>
         </div>
       </div>

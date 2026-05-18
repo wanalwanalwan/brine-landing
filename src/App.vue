@@ -26,7 +26,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="min-h-screen bg-white font-rounded antialiased">
+  <div class="min-h-screen bg-cream font-rounded antialiased">
     <NavBar />
     <main>
       <HeroSection />
