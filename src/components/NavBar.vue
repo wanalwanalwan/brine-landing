@@ -5,7 +5,7 @@ const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' })
 <template>
   <nav class="bg-cream">
     <div class="max-w-6xl mx-auto px-6 md:px-8 h-14 md:h-16 flex items-center justify-between">
-      <button @click="scrollToTop" class="text-[15px] md:text-base font-bold font-rounded text-teal tracking-tight">
+      <button @click="scrollToTop" class="text-lg md:text-xl font-bold text-dark tracking-tighter" style="font-family: 'Inter', system-ui, sans-serif; letter-spacing: -0.04em;">
         brine
       </button>
       <a

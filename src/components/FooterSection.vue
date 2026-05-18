@@ -1,7 +1,7 @@
 <template>
   <footer class="py-10 px-6 md:px-8 bg-dark">
     <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-      <div class="font-rounded font-bold text-teal text-[15px]">
+      <div class="text-lg font-bold text-white tracking-tighter" style="font-family: 'Inter', system-ui, sans-serif; letter-spacing: -0.04em;">
         brine
       </div>
       <div class="flex gap-6 text-sm font-rounded text-white/50">
