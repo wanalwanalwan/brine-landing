@@ -5,7 +5,7 @@
         <div class="border-b border-black/8"></div>
       </div>
       <h2 class="fade-up text-3xl md:text-5xl font-bold font-rounded text-dark tracking-tight leading-[1.1]">
-        Know your game<br />inside out.
+        Everything you need<br />to level up.
       </h2>
 
       <!-- Bento grid -->
@@ -15,7 +15,7 @@
         <div class="fade-up fade-up-delay-1 md:row-span-2 rounded-[20px] border border-black/8 overflow-hidden flex flex-col">
           <div class="flex-1 bg-dark p-7 flex flex-col justify-center">
             <div class="space-y-5">
-              <!-- Log -->
+              <!-- Log sessions -->
               <div class="flex items-start gap-3.5">
                 <div class="w-9 h-9 rounded-full bg-teal flex items-center justify-center shrink-0">
                   <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -23,102 +23,95 @@
                   </svg>
                 </div>
                 <div>
-                  <div class="text-white font-semibold text-[13px]">Log What You Practiced</div>
-                  <div class="text-white/50 text-xs leading-relaxed">Just tell it what you worked on. Plain English.</div>
+                  <div class="text-white font-semibold text-[13px]">Log Your Sessions</div>
+                  <div class="text-white/50 text-xs leading-relaxed">Describe what you practiced. Skills update instantly.</div>
                 </div>
               </div>
-              <!-- See changes -->
+              <!-- AI coach -->
               <div class="flex items-start gap-3.5">
                 <div class="w-9 h-9 rounded-full bg-teal flex items-center justify-center shrink-0">
-                  <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
-                  </svg>
-                </div>
-                <div>
-                  <div class="text-white font-semibold text-[13px]">See What Changed</div>
-                  <div class="text-white/50 text-xs leading-relaxed">Skills update instantly. See gains and gaps.</div>
-                </div>
-              </div>
-              <!-- Get drills -->
-              <div class="flex items-start gap-3.5">
-                <div class="w-9 h-9 rounded-full bg-coral flex items-center justify-center shrink-0">
                   <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
                   </svg>
                 </div>
                 <div>
                   <div class="flex items-center gap-2">
-                    <span class="text-white font-semibold text-[13px]">Get Your Next Drill</span>
+                    <span class="text-white font-semibold text-[13px]">AI Coach</span>
                     <span class="text-[9px] text-white/40 border border-white/20 rounded px-1.5 py-0.5 font-medium">AI</span>
                   </div>
-                  <div class="text-white/50 text-xs leading-relaxed">Practice plans built around your weakest skills.</div>
+                  <div class="text-white/50 text-xs leading-relaxed">Get instant feedback and a drill plan after every session.</div>
                 </div>
               </div>
-              <!-- Track progress -->
+              <!-- Real coach -->
               <div class="flex items-start gap-3.5">
                 <div class="w-9 h-9 rounded-full bg-[#A78BFA] flex items-center justify-center shrink-0">
+                  <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="text-white font-semibold text-[13px]">Talk to a Real Coach</div>
+                  <div class="text-white/50 text-xs leading-relaxed">Book sessions with certified coaches who review your data.</div>
+                </div>
+              </div>
+              <!-- Drills + Progress -->
+              <div class="flex items-start gap-3.5">
+                <div class="w-9 h-9 rounded-full bg-coral flex items-center justify-center shrink-0">
                   <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
                   </svg>
                 </div>
                 <div>
-                  <div class="text-white font-semibold text-[13px]">Watch Yourself Improve</div>
-                  <div class="text-white/50 text-xs leading-relaxed">Every session tracked. Progress you can see.</div>
+                  <div class="text-white font-semibold text-[13px]">Drills & Progress Checker</div>
+                  <div class="text-white/50 text-xs leading-relaxed">Targeted drills for your weaknesses. Watch every skill climb.</div>
                 </div>
               </div>
             </div>
           </div>
           <div class="p-5 pt-4">
-            <h3 class="text-lg font-bold font-rounded text-dark">Your AI Coach</h3>
-            <p class="text-sm text-muted font-rounded leading-relaxed mt-1">Tell Brine what you practiced. It finds your weaknesses and tells you what to work on.</p>
+            <h3 class="text-lg font-bold font-rounded text-dark">Everything in one app</h3>
+            <p class="text-sm text-muted font-rounded leading-relaxed mt-1">Sessions, AI coaching, real coaches, drills, and progress tracking — all connected.</p>
           </div>
         </div>
 
-        <!-- Spot Your Weaknesses — top middle -->
+        <!-- Talk to a Real Coach — top middle -->
         <div class="fade-up fade-up-delay-2 rounded-[20px] border border-black/8 overflow-hidden flex flex-col">
           <div class="bg-cream min-h-[200px] p-6 flex items-center justify-center overflow-hidden">
-            <!-- Weakness indicator in coral -->
-            <div class="bg-white rounded-full border-2 border-coral/20 px-5 py-3 flex items-center gap-3 shadow-sm">
-              <svg class="w-7 h-7 shrink-0" viewBox="0 0 36 36">
-                <circle cx="18" cy="18" r="15" fill="none" stroke="#e5e7eb" stroke-width="3"/>
-                <circle cx="18" cy="18" r="15" fill="none" stroke="#E8756A" stroke-width="3" stroke-dasharray="94.2" stroke-dashoffset="45.2" stroke-linecap="round" transform="rotate(-90 18 18)"/>
-              </svg>
-              <span class="text-sm font-bold text-dark whitespace-nowrap">Drives 52%</span>
+            <div class="bg-white rounded-2xl shadow-sm border border-black/5 p-4 w-full max-w-[200px]">
+              <div class="flex items-center gap-2.5 mb-3">
+                <div class="w-9 h-9 rounded-full bg-[#A78BFA] flex items-center justify-center text-white font-bold text-[11px] shrink-0">JR</div>
+                <div>
+                  <div class="text-xs font-semibold text-dark">Coach Jordan</div>
+                  <div class="text-[9px] text-teal font-medium">● Available now</div>
+                </div>
+              </div>
+              <div class="bg-[#f5f5f5] rounded-lg p-2.5 text-[9px] text-muted leading-snug mb-2.5">
+                "I reviewed your stats — let's work on those volleys next."
+              </div>
+              <div class="bg-dark text-white text-[9px] font-semibold text-center rounded-full py-1.5">Book a Session</div>
             </div>
           </div>
           <div class="p-5 pt-4">
-            <h3 class="text-lg font-bold font-rounded text-dark">Spot Your Weaknesses</h3>
-            <p class="text-sm text-muted font-rounded leading-relaxed mt-1">Every skill rated 0-100%.<br/>See exactly where you need work.</p>
+            <h3 class="text-lg font-bold font-rounded text-dark">Talk to a Real Coach</h3>
+            <p class="text-sm text-muted font-rounded leading-relaxed mt-1">Book sessions with certified coaches who already know your game.</p>
           </div>
         </div>
 
-        <!-- See What Improved — top right -->
+        <!-- Log Your Sessions — top right -->
         <div class="fade-up fade-up-delay-3 rounded-[20px] border border-black/8 overflow-hidden flex flex-col">
-          <div class="bg-cream min-h-[200px] p-6 flex items-end justify-end overflow-hidden">
-            <!-- Improvement list, offset to crop at edge -->
-            <div class="bg-white rounded-xl px-4 py-3.5 shadow-sm border border-black/5 translate-x-5">
-              <div class="flex items-center gap-2.5 mb-3">
-                <div class="w-4 h-4 rounded-full bg-success flex items-center justify-center shrink-0">
-                  <svg class="w-2.5 h-2.5 text-white" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                </div>
-                <span class="text-xs font-semibold text-success">Dinking +3%</span>
-                <span class="text-[10px] text-muted ml-4 whitespace-nowrap">Jul 15 · 2:30p</span>
-              </div>
-              <div class="flex items-center gap-2.5 mb-3">
-                <div class="w-4 h-4 rounded-full bg-success flex items-center justify-center shrink-0">
-                  <svg class="w-2.5 h-2.5 text-white" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                </div>
-                <span class="text-xs font-semibold text-success">Drops +5%</span>
-              </div>
-              <div class="flex items-center gap-2.5">
-                <div class="w-4 h-4 rounded-full border-2 border-black/10 shrink-0"></div>
-                <span class="text-xs text-muted">Defense —</span>
+          <div class="bg-cream min-h-[200px] p-6 flex items-center justify-center overflow-hidden">
+            <div class="bg-white rounded-xl px-4 py-3.5 shadow-sm border border-black/5 w-full max-w-[200px]">
+              <div class="text-[9px] text-muted mb-1.5">Today · 3:15 PM</div>
+              <div class="text-[11px] text-dark font-medium leading-snug mb-2.5">"Worked on dinks and third shot drops for an hour"</div>
+              <div class="flex gap-1.5 flex-wrap">
+                <span class="text-[9px] bg-teal/10 text-teal px-2 py-0.5 rounded-full font-medium">Dinking +3%</span>
+                <span class="text-[9px] bg-teal/10 text-teal px-2 py-0.5 rounded-full font-medium">Drops +5%</span>
               </div>
             </div>
           </div>
           <div class="p-5 pt-4">
-            <h3 class="text-lg font-bold font-rounded text-dark">See What Improved</h3>
-            <p class="text-sm text-muted font-rounded leading-relaxed mt-1">After every session, see exactly<br/>what changed and by how much.</p>
+            <h3 class="text-lg font-bold font-rounded text-dark">Log Your Sessions</h3>
+            <p class="text-sm text-muted font-rounded leading-relaxed mt-1">Just describe what you practiced.<br/>Skills update automatically.</p>
           </div>
         </div>
 
@@ -142,8 +135,8 @@
             </div>
           </div>
           <div class="p-5 pt-4">
-            <h3 class="text-lg font-bold font-rounded text-dark">Know What to Practice</h3>
-            <p class="text-sm text-muted font-rounded leading-relaxed mt-1">AI drills that target your<br/>weakest skills first.</p>
+            <h3 class="text-lg font-bold font-rounded text-dark">Drills</h3>
+            <p class="text-sm text-muted font-rounded leading-relaxed mt-1">AI-generated drills targeting<br/>your weakest skills first.</p>
           </div>
         </div>
 
@@ -163,8 +156,8 @@
             </div>
           </div>
           <div class="p-5 pt-4">
-            <h3 class="text-lg font-bold font-rounded text-dark">Proof You're Improving</h3>
-            <p class="text-sm text-muted font-rounded leading-relaxed mt-1">Watch your ratings climb over<br/>weeks and months.</p>
+            <h3 class="text-lg font-bold font-rounded text-dark">Progress Checker</h3>
+            <p class="text-sm text-muted font-rounded leading-relaxed mt-1">Watch every skill climb over<br/>weeks and months.</p>
           </div>
         </div>
 

@@ -32,13 +32,16 @@
           </div>
         </div>
 
-        <!-- Streak card -->
+        <!-- Real coach card -->
         <div class="float-slow bg-white rounded-2xl shadow-lg shadow-black/5 border border-black/5 p-4 -ml-2 -rotate-1 mt-4">
-          <div class="flex items-center gap-2 mb-1">
-            <span class="text-sm">🔥</span>
-            <span class="text-xs font-semibold text-dark">7-Day Streak</span>
+          <div class="flex items-center gap-2 mb-2">
+            <div class="w-7 h-7 rounded-full bg-[#A78BFA] flex items-center justify-center text-white text-[10px] font-bold">JR</div>
+            <div>
+              <div class="text-xs font-semibold text-dark">Coach Jordan</div>
+              <div class="text-[9px] text-teal font-medium">● Available now</div>
+            </div>
           </div>
-          <div class="text-[10px] text-muted">You've practiced every day this week. Keep it up!</div>
+          <div class="text-[10px] text-muted leading-snug">"Let's work on your volleys — I've reviewed your progress."</div>
         </div>
       </div>
 
@@ -95,11 +98,11 @@
       <!-- Center content -->
       <div class="text-center max-w-2xl mx-auto relative z-10">
         <h1 class="fade-up text-4xl md:text-7xl font-bold font-rounded text-dark tracking-tight leading-[1.1]">
-          Stop guessing<br />
-          what to practice.
+          Your complete<br />
+          pickleball coach.
         </h1>
         <p class="fade-up fade-up-delay-1 mt-6 md:mt-8 text-base md:text-xl text-muted font-rounded leading-relaxed max-w-lg mx-auto">
-          Brine rates your pickleball skills, finds your weaknesses, and builds AI-powered drills to fix them.
+          Log sessions, get AI coaching, talk to real coaches, run targeted drills, and watch your progress — all in one place.
         </p>
         <div class="fade-up fade-up-delay-2 mt-8 md:mt-10">
           <a
@@ -172,13 +175,14 @@
           </div>
         </div>
 
-        <!-- Streak card -->
+        <!-- Real Coach card -->
         <div class="bg-white rounded-xl shadow-sm shadow-black/5 border border-black/5 p-3.5 min-w-[200px] snap-start shrink-0">
-          <div class="flex items-center gap-1.5 mb-1">
-            <span class="text-xs">🔥</span>
-            <span class="text-[11px] font-semibold text-dark">7-Day Streak</span>
+          <div class="flex items-center gap-1.5 mb-1.5">
+            <div class="w-5 h-5 rounded-full bg-[#A78BFA] flex items-center justify-center text-white text-[8px] font-bold shrink-0">JR</div>
+            <span class="text-[11px] font-semibold text-dark">Real Coach</span>
+            <span class="text-[8px] text-teal font-medium ml-auto">● Online</span>
           </div>
-          <div class="text-[9px] text-muted leading-snug">You've practiced every day this week!</div>
+          <div class="text-[9px] text-muted leading-snug">"Let's work on your volleys next session."</div>
         </div>
 
         <!-- Progress card -->
