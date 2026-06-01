@@ -58,6 +58,60 @@
   opacity: 1;
 }
 
+/* Hero gradient mesh orbs */
+.gradient-orb-1 {
+  position: absolute;
+  width: 650px;
+  height: 650px;
+  top: -160px;
+  left: -160px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #2AA6A038 0%, transparent 70%);
+  filter: blur(48px);
+  animation: orb-drift-1 14s ease-in-out infinite;
+}
+
+.gradient-orb-2 {
+  position: absolute;
+  width: 520px;
+  height: 520px;
+  bottom: -80px;
+  right: -80px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #E8756A28 0%, transparent 70%);
+  filter: blur(48px);
+  animation: orb-drift-2 17s ease-in-out infinite;
+}
+
+.gradient-orb-3 {
+  position: absolute;
+  width: 440px;
+  height: 440px;
+  top: calc(50% - 220px);
+  left: calc(50% - 220px);
+  border-radius: 50%;
+  background: radial-gradient(circle, #2AA6A01a 0%, transparent 70%);
+  filter: blur(64px);
+  animation: orb-drift-3 11s ease-in-out infinite;
+}
+
+@keyframes orb-drift-1 {
+  0%, 100% { transform: translate(0, 0); }
+  33%       { transform: translate(50px, -35px); }
+  66%       { transform: translate(-25px, 25px); }
+}
+
+@keyframes orb-drift-2 {
+  0%, 100% { transform: translate(0, 0); }
+  33%       { transform: translate(-40px, 30px); }
+  66%       { transform: translate(30px, -25px); }
+}
+
+@keyframes orb-drift-3 {
+  0%, 100% { transform: translate(0, 0); }
+  50%       { transform: translate(25px, 35px); }
+}
+
 /* Hero float animations */
 @keyframes float-slow {
   0%, 100% { transform: translateY(0px); }

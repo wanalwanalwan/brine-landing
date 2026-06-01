@@ -1,5 +1,12 @@
 <template>
-  <section class="pt-16 md:pt-20 pb-16 md:pb-24 px-6 md:px-8 overflow-hidden">
+  <section class="relative pt-16 md:pt-20 pb-16 md:pb-24 px-6 md:px-8 overflow-hidden">
+    <!-- Gradient mesh background -->
+    <div class="absolute inset-0 pointer-events-none" aria-hidden="true">
+      <div class="gradient-orb-1"></div>
+      <div class="gradient-orb-2"></div>
+      <div class="gradient-orb-3"></div>
+    </div>
+
     <div class="max-w-6xl mx-auto relative">
       <!-- Left UI elements (desktop only) -->
       <div class="hidden lg:block absolute left-0 top-8 w-64">
