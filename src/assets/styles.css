@@ -58,58 +58,32 @@
   opacity: 1;
 }
 
-/* Hero gradient mesh orbs */
-.gradient-orb-1 {
-  position: absolute;
-  width: 650px;
-  height: 650px;
-  top: -160px;
-  left: -160px;
-  border-radius: 50%;
-  background: radial-gradient(circle, #2AA6A038 0%, transparent 70%);
-  filter: blur(48px);
-  animation: orb-drift-1 14s ease-in-out infinite;
+/* Hero animated gradient mesh — positions are registered so CSS can interpolate them */
+@property --hg1x { syntax: '<percentage>'; initial-value: 5%;  inherits: false; }
+@property --hg1y { syntax: '<percentage>'; initial-value: 10%; inherits: false; }
+@property --hg2x { syntax: '<percentage>'; initial-value: 95%; inherits: false; }
+@property --hg2y { syntax: '<percentage>'; initial-value: 90%; inherits: false; }
+@property --hg3x { syntax: '<percentage>'; initial-value: 55%; inherits: false; }
+@property --hg3y { syntax: '<percentage>'; initial-value: 45%; inherits: false; }
+
+.hero-section {
+  background-color: #F5F5F7;
+  background-image:
+    radial-gradient(ellipse 820px 700px at var(--hg1x) var(--hg1y), #2AA6A068 0%, transparent 100%),
+    radial-gradient(ellipse 700px 600px at var(--hg2x) var(--hg2y), #E8756A55 0%, transparent 100%),
+    radial-gradient(ellipse 500px 400px at var(--hg3x) var(--hg3y), #2AA6A030 0%, transparent 100%);
+  animation: hero-mesh-drift 14s ease-in-out infinite alternate;
 }
 
-.gradient-orb-2 {
-  position: absolute;
-  width: 520px;
-  height: 520px;
-  bottom: -80px;
-  right: -80px;
-  border-radius: 50%;
-  background: radial-gradient(circle, #E8756A28 0%, transparent 70%);
-  filter: blur(48px);
-  animation: orb-drift-2 17s ease-in-out infinite;
-}
-
-.gradient-orb-3 {
-  position: absolute;
-  width: 440px;
-  height: 440px;
-  top: calc(50% - 220px);
-  left: calc(50% - 220px);
-  border-radius: 50%;
-  background: radial-gradient(circle, #2AA6A01a 0%, transparent 70%);
-  filter: blur(64px);
-  animation: orb-drift-3 11s ease-in-out infinite;
-}
-
-@keyframes orb-drift-1 {
-  0%, 100% { transform: translate(0, 0); }
-  33%       { transform: translate(50px, -35px); }
-  66%       { transform: translate(-25px, 25px); }
-}
-
-@keyframes orb-drift-2 {
-  0%, 100% { transform: translate(0, 0); }
-  33%       { transform: translate(-40px, 30px); }
-  66%       { transform: translate(30px, -25px); }
-}
-
-@keyframes orb-drift-3 {
-  0%, 100% { transform: translate(0, 0); }
-  50%       { transform: translate(25px, 35px); }
+@keyframes hero-mesh-drift {
+  to {
+    --hg1x: 18%;
+    --hg1y: 28%;
+    --hg2x: 82%;
+    --hg2y: 72%;
+    --hg3x: 45%;
+    --hg3y: 60%;
+  }
 }
 
 /* Hero float animations */
