@@ -74,23 +74,23 @@
         <!-- Talk to a Real Coach — top middle -->
         <div class="fade-up fade-up-delay-2 rounded-[20px] border border-black/8 overflow-hidden flex flex-col">
           <div class="bg-cream min-h-[200px] p-6 flex items-center justify-center overflow-hidden">
-            <div class="bg-white rounded-2xl shadow-sm border border-black/5 p-4 w-full max-w-[200px]">
-              <div class="flex items-center gap-2.5 mb-3">
-                <div class="w-9 h-9 rounded-full bg-[#A78BFA] flex items-center justify-center text-white font-bold text-[11px] shrink-0">JR</div>
-                <div>
-                  <div class="text-xs font-semibold text-dark">Coach Jordan</div>
-                  <div class="text-[9px] text-teal font-medium">● Available now</div>
-                </div>
+            <div class="bg-white rounded-2xl shadow-sm border border-black/5 p-4 w-full max-w-[210px]">
+              <div class="flex items-center gap-2 mb-2.5">
+                <div class="w-7 h-7 rounded-full bg-[#A78BFA] flex items-center justify-center text-white font-bold text-[10px] shrink-0">JR</div>
+                <span class="text-[11px] font-semibold text-dark">Coach Jordan</span>
               </div>
-              <div class="bg-[#f5f5f5] rounded-lg p-2.5 text-[9px] text-muted leading-snug mb-2.5">
-                "I reviewed your stats — let's work on those volleys next."
+              <div class="bg-[#f5f5f5] rounded-lg p-2.5 text-[9px] text-dark leading-snug mb-2">
+                "Your volleys are at 48% — you're swinging too hard at the kitchen. Try blocking instead of driving under pressure."
               </div>
-              <div class="bg-dark text-white text-[9px] font-semibold text-center rounded-full py-1.5">Book a Session</div>
+              <div class="flex gap-1.5">
+                <span class="text-[8px] bg-coral/10 text-coral px-2 py-0.5 rounded-full font-medium">Volleys 48%</span>
+                <span class="text-[8px] bg-teal/10 text-teal px-2 py-0.5 rounded-full font-medium">Drill added</span>
+              </div>
             </div>
           </div>
           <div class="p-5 pt-4">
             <h3 class="text-lg font-bold font-rounded text-dark">Talk to a Real Coach</h3>
-            <p class="text-sm text-muted font-rounded leading-relaxed mt-1">Book sessions with certified coaches who already know your game.</p>
+            <p class="text-sm text-muted font-rounded leading-relaxed mt-1">Get real insights from certified coaches who know your stats.</p>
           </div>
         </div>
 

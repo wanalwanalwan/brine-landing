@@ -28,9 +28,9 @@ import MockupSkills from './MockupSkills.vue'
       <!-- Section 2: Real Coach — text left, phone right -->
       <FeatureShowcase
         label="Human Coaching"
-        title="Talk to a real coach who knows your game."
-        description="Book sessions with certified pickleball coaches directly in the app. They can see your stats, your sessions, and exactly where you need help — no catch-up needed."
-        :features="['Certified Pickleball Coaches', 'They See Your Data', 'Book Sessions In-App']"
+        title="Real coaches. Real insights."
+        description="Chat with certified pickleball coaches who already see your stats and session history. They know exactly where your game breaks down and tell you what to fix."
+        :features="['Coaches See Your Stats', 'Personalized Feedback', 'Specific Drills from a Human']"
         :reverse="true"
       >
         <template #phone>

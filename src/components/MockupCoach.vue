@@ -9,45 +9,46 @@
       <div class="w-4"></div>
     </div>
 
-    <!-- Coach profile -->
-    <div class="flex items-center gap-2.5 mb-3 bg-[#f5f5f5] rounded-xl px-3 py-2.5">
-      <div class="w-8 h-8 rounded-full bg-[#A78BFA] flex items-center justify-center text-white font-bold text-[11px] shrink-0">JR</div>
-      <div class="flex-1 min-w-0">
-        <div class="text-[11px] font-semibold text-dark">Coach Jordan R.</div>
-        <div class="text-[9px] text-teal font-medium">● Available now</div>
-      </div>
-      <div class="text-[9px] text-muted shrink-0">4.9 ★</div>
-    </div>
-
     <!-- Chat messages -->
     <div class="flex-1 space-y-2.5 overflow-hidden">
-      <!-- Coach message -->
+      <!-- User -->
+      <div class="flex justify-end">
+        <div class="bg-teal text-white text-[10px] leading-snug rounded-2xl rounded-br-sm px-2.5 py-2 max-w-[82%]">
+          I keep losing points at the kitchen line. Not sure what I'm doing wrong.
+        </div>
+      </div>
+
+      <!-- Coach insight -->
       <div class="flex justify-start">
-        <div class="bg-[#f0f0f0] text-dark text-[10px] leading-snug rounded-2xl rounded-bl-sm px-2.5 py-2 max-w-[88%]">
-          I reviewed your stats — dinking is coming along! Let's lock in those volleys next session.
+        <div class="bg-[#f0f0f0] text-dark text-[10px] leading-snug rounded-2xl rounded-bl-sm px-2.5 py-2 max-w-[90%]">
+          <p class="mb-2">Your volley rating is at 48% — that tracks. A few things I'm seeing:</p>
+          <div class="space-y-1.5 text-[9px]">
+            <div class="flex gap-1.5">
+              <span class="text-coral font-bold shrink-0">→</span>
+              <span>You're hitting volleys too hard. Soft hands at the kitchen win more points.</span>
+            </div>
+            <div class="flex gap-1.5">
+              <span class="text-coral font-bold shrink-0">→</span>
+              <span>Try resetting with a block volley instead of driving when under pressure.</span>
+            </div>
+          </div>
         </div>
       </div>
 
       <!-- User -->
       <div class="flex justify-end">
         <div class="bg-teal text-white text-[10px] leading-snug rounded-2xl rounded-br-sm px-2.5 py-2 max-w-[82%]">
-          When can we meet?
+          That makes sense. What should I drill?
         </div>
       </div>
 
-      <!-- Coach booking reply -->
+      <!-- Coach drill rec -->
       <div class="flex justify-start">
-        <div class="bg-[#f0f0f0] text-dark text-[10px] leading-snug rounded-2xl rounded-bl-sm px-2.5 py-2 max-w-[88%]">
-          <p class="mb-2">I have these slots open:</p>
-          <div class="bg-white rounded-lg px-2.5 py-2 border border-black/5 space-y-2">
-            <div class="flex items-center justify-between">
-              <span class="text-[9px] text-dark font-medium">Thu, Jun 5 · 10am</span>
-              <span class="text-[8px] bg-teal text-white px-2 py-0.5 rounded-full font-medium">Book</span>
-            </div>
-            <div class="flex items-center justify-between">
-              <span class="text-[9px] text-dark font-medium">Fri, Jun 6 · 2pm</span>
-              <span class="text-[8px] bg-teal text-white px-2 py-0.5 rounded-full font-medium">Book</span>
-            </div>
+        <div class="bg-[#f0f0f0] text-dark text-[10px] leading-snug rounded-2xl rounded-bl-sm px-2.5 py-2 max-w-[90%]">
+          <p class="mb-1.5">Start with this:</p>
+          <div class="bg-white rounded-lg px-2.5 py-2 border border-black/5">
+            <div class="font-semibold text-teal text-[9px]">Soft Block Volleys</div>
+            <div class="text-[9px] text-muted">3 sets × 15 reps — focus on zero backswing</div>
           </div>
         </div>
       </div>
@@ -55,7 +56,7 @@
 
     <!-- Input bar -->
     <div class="mt-2 bg-[#f5f5f5] rounded-full px-3 py-1.5 text-[10px] text-muted">
-      Message your coach...
+      Ask your coach anything...
     </div>
   </div>
 </template>
