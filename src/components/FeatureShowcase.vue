@@ -9,7 +9,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="py-12 md:py-24">
+  <div class="py-8 md:py-14">
     <div class="fade-up grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
       <!-- Phone side (always after text on mobile) -->
       <div class="flex justify-center order-2" :class="reverse ? 'md:order-2' : 'md:order-1'">
