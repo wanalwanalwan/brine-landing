@@ -1,9 +1,6 @@
 <template>
   <section class="py-16 md:py-24 px-6 md:px-8">
     <div class="max-w-6xl mx-auto">
-      <div class="fade-up mb-12 md:mb-16">
-        <div class="border-b border-black/8"></div>
-      </div>
       <h2 class="fade-up text-3xl md:text-5xl font-bold font-rounded text-dark tracking-tight leading-[1.1]">
         Everything you need<br />to level up.
       </h2>
