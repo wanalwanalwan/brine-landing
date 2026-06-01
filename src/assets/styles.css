@@ -67,12 +67,24 @@
 @property --hg3y { syntax: '<percentage>'; initial-value: 45%; inherits: false; }
 
 .hero-section {
+  position: relative;
   background-color: #F5F5F7;
   background-image:
     radial-gradient(ellipse 820px 700px at var(--hg1x) var(--hg1y), #2AA6A068 0%, transparent 100%),
     radial-gradient(ellipse 700px 600px at var(--hg2x) var(--hg2y), #E8756A55 0%, transparent 100%),
     radial-gradient(ellipse 500px 400px at var(--hg3x) var(--hg3y), #2AA6A030 0%, transparent 100%);
   animation: hero-mesh-drift 14s ease-in-out infinite alternate;
+}
+
+.hero-section::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 160px;
+  background: linear-gradient(to bottom, transparent, #F5F5F7);
+  pointer-events: none;
 }
 
 @keyframes hero-mesh-drift {
