@@ -3,10 +3,10 @@
     <div class="max-w-6xl mx-auto">
       <div class="text-center">
         <h2 class="fade-up text-3xl md:text-5xl font-bold font-rounded text-dark tracking-tight leading-[1.1]">
-          Ready to stop<br />guessing?
+          Ready to get better<br />at pickleball?
         </h2>
         <p class="fade-up fade-up-delay-1 text-muted font-rounded mt-5 md:mt-6 mb-8 md:mb-10 text-base md:text-lg">
-          See where you stand and what to practice next.
+          Download Brine and start improving today.
         </p>
         <div class="fade-up fade-up-delay-2">
           <a

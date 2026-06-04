@@ -3,7 +3,7 @@ import FeatureShowcase from './FeatureShowcase.vue'
 import PhoneFrame from './PhoneFrame.vue'
 import MockupAgent from './MockupAgent.vue'
 import MockupCoach from './MockupCoach.vue'
-import MockupTimeline from './MockupTimeline.vue'
+import MockupSchedule from './MockupSchedule.vue'
 import MockupSkills from './MockupSkills.vue'
 </script>
 
@@ -28,9 +28,9 @@ import MockupSkills from './MockupSkills.vue'
       <!-- Section 2: Real Coach — text left, phone right -->
       <FeatureShowcase
         label="Human Coaching"
-        title="Real coaches. Real insights."
-        description="Chat with certified pickleball coaches who already see your stats and session history. They know exactly where your game breaks down and tell you what to fix."
-        :features="['Coaches See Your Stats', 'Personalized Feedback', 'Specific Drills from a Human']"
+        title="Talk to real coaches. Get fast answers."
+        description="Message real pickleball coaches who already see your stats and session history. They know your game, respond quickly, and tell you exactly what to fix."
+        :features="['Quick Response Times', 'Coaches See Your Stats', 'Specific Drills from a Pro']"
         :reverse="true"
       >
         <template #phone>
@@ -40,10 +40,10 @@ import MockupSkills from './MockupSkills.vue'
         </template>
       </FeatureShowcase>
 
-      <!-- Section 3: Progress Checker — phone left, text right -->
+      <!-- Section 3: Skill Tracking — phone left, text right -->
       <FeatureShowcase
         label="Measurable"
-        title="Check your progress after every session."
+        title="Track every skill. See real progress."
         description="Every part of your game rated 0–100%. After each session, see which skills improved, which need work, and how far you've come over time."
         :features="['0–100% Skill Ratings', 'Session-by-Session Changes', 'Long-Term Progress Tracking']"
       >
@@ -54,17 +54,17 @@ import MockupSkills from './MockupSkills.vue'
         </template>
       </FeatureShowcase>
 
-      <!-- Section 4: Sessions Timeline — text left, phone right -->
+      <!-- Section 4: Personalized Schedule — text left, phone right -->
       <FeatureShowcase
-        label="History"
-        title="Every session, every gain, all in one place."
-        description="Your complete practice journal — every session logged, every skill change recorded, every AI insight saved. See your whole journey at a glance."
-        :features="['Full Session History', 'Skill Change Log', 'AI Insights Saved']"
+        label="Personalized"
+        title="A drill schedule built for you."
+        description="Brine builds a personalized practice schedule based on your weakest skills. Know exactly what to work on each day so every session counts."
+        :features="['Personalized Drill Plans', 'Daily Practice Schedule', 'Focused on Your Weak Spots']"
         :reverse="true"
       >
         <template #phone>
           <PhoneFrame>
-            <MockupTimeline />
+            <MockupSchedule />
           </PhoneFrame>
         </template>
       </FeatureShowcase>

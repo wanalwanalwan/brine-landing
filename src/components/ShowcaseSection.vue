@@ -2,7 +2,7 @@
   <section class="py-16 md:py-24 px-6 md:px-8">
     <div class="max-w-6xl mx-auto">
       <h2 class="fade-up text-3xl md:text-5xl font-bold font-rounded text-dark tracking-tight leading-[1.1]">
-        Everything you need<br />to level up.
+        All in one app.<br />Built to make you better.
       </h2>
 
       <!-- Bento grid -->
@@ -47,27 +47,27 @@
                   </svg>
                 </div>
                 <div>
-                  <div class="text-white font-semibold text-[13px]">Talk to a Real Coach</div>
-                  <div class="text-white/50 text-xs leading-relaxed">Book sessions with certified coaches who review your data.</div>
+                  <div class="text-white font-semibold text-[13px]">Talk to Real Coaches</div>
+                  <div class="text-white/50 text-xs leading-relaxed">Get expert advice with quick response times.</div>
                 </div>
               </div>
-              <!-- Drills + Progress -->
+              <!-- Personalized schedule -->
               <div class="flex items-start gap-3.5">
                 <div class="w-9 h-9 rounded-full bg-coral flex items-center justify-center shrink-0">
                   <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
                   </svg>
                 </div>
                 <div>
-                  <div class="text-white font-semibold text-[13px]">Drills & Progress Checker</div>
-                  <div class="text-white/50 text-xs leading-relaxed">Targeted drills for your weaknesses. Watch every skill climb.</div>
+                  <div class="text-white font-semibold text-[13px]">Personalized Schedules</div>
+                  <div class="text-white/50 text-xs leading-relaxed">A drill plan built around your weakest skills, day by day.</div>
                 </div>
               </div>
             </div>
           </div>
           <div class="p-5 pt-4">
             <h3 class="text-lg font-bold font-rounded text-dark">Everything in one app</h3>
-            <p class="text-sm text-muted font-rounded leading-relaxed mt-1">Sessions, AI coaching, real coaches, drills, and progress tracking — all connected.</p>
+            <p class="text-sm text-muted font-rounded leading-relaxed mt-1">Sessions, AI coaching, real coaches, schedules, and skill tracking — all connected.</p>
           </div>
         </div>
 
@@ -78,19 +78,20 @@
               <div class="flex items-center gap-2 mb-2.5">
                 <div class="w-7 h-7 rounded-full bg-[#A78BFA] flex items-center justify-center text-white font-bold text-[10px] shrink-0">JR</div>
                 <span class="text-[11px] font-semibold text-dark">Coach Jordan</span>
+                <span class="w-1.5 h-1.5 rounded-full bg-success ml-auto"></span>
               </div>
               <div class="bg-[#f5f5f5] rounded-lg p-2.5 text-[9px] text-dark leading-snug mb-2">
                 "Your volleys are at 48% — you're swinging too hard at the kitchen. Try blocking instead of driving under pressure."
               </div>
               <div class="flex gap-1.5">
                 <span class="text-[8px] bg-coral/10 text-coral px-2 py-0.5 rounded-full font-medium">Volleys 48%</span>
-                <span class="text-[8px] bg-teal/10 text-teal px-2 py-0.5 rounded-full font-medium">Drill added</span>
+                <span class="text-[8px] bg-teal/10 text-teal px-2 py-0.5 rounded-full font-medium">Replied in 5 min</span>
               </div>
             </div>
           </div>
           <div class="p-5 pt-4">
-            <h3 class="text-lg font-bold font-rounded text-dark">Talk to a Real Coach</h3>
-            <p class="text-sm text-muted font-rounded leading-relaxed mt-1">Get real insights from certified coaches who know your stats.</p>
+            <h3 class="text-lg font-bold font-rounded text-dark">Talk to Real Coaches</h3>
+            <p class="text-sm text-muted font-rounded leading-relaxed mt-1">Get expert advice with quick response times from coaches who know your stats.</p>
           </div>
         </div>
 
@@ -112,49 +113,78 @@
           </div>
         </div>
 
-        <!-- Know What to Practice — bottom middle -->
+        <!-- Personalized Schedule — bottom middle -->
         <div class="fade-up fade-up-delay-3 rounded-[20px] border border-black/8 overflow-hidden flex flex-col">
           <div class="bg-cream min-h-[200px] p-6 flex items-center justify-center overflow-hidden">
-            <!-- Drill stat mockup -->
-            <div class="flex items-center gap-4">
-              <div class="text-right">
-                <div class="text-xl font-bold text-dark leading-tight">3 sets</div>
-                <div class="text-sm text-muted">× 10 reps</div>
+            <div class="w-full max-w-[200px] space-y-1.5">
+              <div class="bg-success/10 rounded-lg px-3 py-2">
+                <div class="flex items-center justify-between">
+                  <span class="text-[9px] text-muted">Mon</span>
+                  <span class="text-[9px] text-success font-semibold">Done ✓</span>
+                </div>
+                <span class="text-[10px] font-semibold text-dark/40 line-through">Cross-Court Dinks</span>
               </div>
-              <div class="flex flex-col gap-1.5">
-                <div class="w-8 h-8 rounded-full bg-teal flex items-center justify-center">
-                  <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"/></svg>
+              <div class="bg-teal/10 rounded-lg px-3 py-2 border border-teal/20">
+                <div class="flex items-center justify-between">
+                  <span class="text-[9px] text-teal font-semibold">Today</span>
+                  <span class="text-[7px] bg-teal text-white px-1.5 py-0.5 rounded-full font-semibold">Up Next</span>
                 </div>
-                <div class="w-8 h-8 rounded-full bg-coral flex items-center justify-center">
-                  <div class="w-2 h-2 rounded-full bg-white"></div>
-                </div>
+                <span class="text-[10px] font-semibold text-dark">Third Shot Drops</span>
+              </div>
+              <div class="bg-white rounded-lg px-3 py-2 border border-black/5">
+                <span class="text-[9px] text-muted">Wed</span>
+                <div class="text-[10px] font-semibold text-dark">Serve Placement</div>
               </div>
             </div>
           </div>
           <div class="p-5 pt-4">
-            <h3 class="text-lg font-bold font-rounded text-dark">Drills</h3>
-            <p class="text-sm text-muted font-rounded leading-relaxed mt-1">AI-generated drills targeting<br/>your weakest skills first.</p>
+            <h3 class="text-lg font-bold font-rounded text-dark">Personalized Schedules</h3>
+            <p class="text-sm text-muted font-rounded leading-relaxed mt-1">A drill plan built for you,<br/>focused on your weak spots.</p>
           </div>
         </div>
 
-        <!-- Proof You're Improving — bottom right -->
+        <!-- Skill Tracking — bottom right -->
         <div class="fade-up fade-up-delay-4 rounded-[20px] border border-black/8 overflow-hidden flex flex-col">
           <div class="bg-cream min-h-[200px] p-6 flex items-center justify-center overflow-hidden">
-            <!-- Upward trend line -->
-            <div class="translate-x-4">
-              <svg class="w-40 h-20" viewBox="0 0 160 80">
-                <polyline points="0,65 25,60 50,52 75,48 100,35 125,25 150,12" fill="none" stroke="#2AA6A0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                <circle cx="150" cy="12" r="4" fill="#2AA6A0"/>
-              </svg>
-              <div class="flex items-baseline gap-1 mt-2">
-                <span class="text-lg font-bold text-teal">74%</span>
-                <span class="text-xs text-success font-semibold">↑ 12%</span>
+            <div class="w-full max-w-[180px]">
+              <div class="space-y-2">
+                <div>
+                  <div class="flex items-center justify-between mb-1">
+                    <span class="text-[10px] font-semibold text-dark">Dinking</span>
+                    <span class="text-[10px] font-bold text-teal">72%</span>
+                  </div>
+                  <div class="h-1.5 bg-white rounded-full overflow-hidden">
+                    <div class="h-full bg-teal rounded-full" style="width: 72%"></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex items-center justify-between mb-1">
+                    <span class="text-[10px] font-semibold text-dark">Drives</span>
+                    <span class="text-[10px] font-bold text-teal">82%</span>
+                  </div>
+                  <div class="h-1.5 bg-white rounded-full overflow-hidden">
+                    <div class="h-full bg-teal rounded-full" style="width: 82%"></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex items-center justify-between mb-1">
+                    <span class="text-[10px] font-semibold text-dark">Volleys</span>
+                    <span class="text-[10px] font-bold text-coral">48%</span>
+                  </div>
+                  <div class="h-1.5 bg-white rounded-full overflow-hidden">
+                    <div class="h-full bg-coral rounded-full" style="width: 48%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-baseline gap-1 mt-3">
+                <span class="text-lg font-bold text-teal">68%</span>
+                <span class="text-xs text-success font-semibold">↑ 8% this week</span>
               </div>
             </div>
           </div>
           <div class="p-5 pt-4">
-            <h3 class="text-lg font-bold font-rounded text-dark">Progress Checker</h3>
-            <p class="text-sm text-muted font-rounded leading-relaxed mt-1">Watch every skill climb over<br/>weeks and months.</p>
+            <h3 class="text-lg font-bold font-rounded text-dark">Skill Tracking</h3>
+            <p class="text-sm text-muted font-rounded leading-relaxed mt-1">Every skill rated 0–100%.<br/>Watch your progress over time.</p>
           </div>
         </div>
 

@@ -98,6 +98,32 @@
   }
 }
 
+/* 3D phone mockup styles */
+.phone-bezel {
+  box-shadow:
+    0 0 0 2px rgba(255, 255, 255, 0.1),
+    0 25px 50px -12px rgba(0, 0, 0, 0.35),
+    0 12px 24px -8px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.phone-screen-glare {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.12) 0%,
+    rgba(255, 255, 255, 0) 40%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  pointer-events: none;
+  border-radius: 2.25rem;
+  z-index: 10;
+}
+
 /* Hero float animations */
 @keyframes float-slow {
   0%, 100% { transform: translateY(0px); }

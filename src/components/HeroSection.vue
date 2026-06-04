@@ -61,49 +61,38 @@
           </div>
         </div>
 
-        <!-- Drill card -->
+        <!-- Schedule card -->
         <div class="float-slow bg-white rounded-2xl shadow-lg shadow-black/5 border border-black/5 p-4 ml-4 -rotate-2">
           <div class="flex items-center justify-between mb-2">
-            <span class="text-xs font-semibold text-dark">Cross-Court Dinks</span>
-            <span class="text-[10px] bg-coral/10 text-coral px-2 py-0.5 rounded-full font-medium">High Priority</span>
+            <span class="text-xs font-semibold text-dark">Today's Schedule</span>
+            <span class="text-[10px] bg-teal/10 text-teal px-2 py-0.5 rounded-full font-medium">3 drills</span>
           </div>
-          <div class="text-[10px] text-muted mb-2">15 reps remaining</div>
+          <div class="text-[10px] text-muted mb-1">Cross-Court Dinks — 3 x 10 reps</div>
           <div class="h-1.5 bg-cream rounded-full overflow-hidden">
-            <div class="h-full bg-coral rounded-full" style="width: 40%"></div>
+            <div class="h-full bg-teal rounded-full" style="width: 33%"></div>
           </div>
         </div>
 
-        <!-- Progress card -->
+        <!-- Real coach response time card -->
         <div class="float-medium bg-white rounded-2xl shadow-lg shadow-black/5 border border-black/5 p-4 -ml-2 rotate-1 mt-4">
           <div class="flex items-center gap-2 mb-2">
-            <span class="text-sm">📈</span>
-            <span class="text-xs font-semibold text-dark">Weekly Progress</span>
+            <div class="w-6 h-6 rounded-full bg-[#A78BFA] flex items-center justify-center text-white text-[9px] font-bold">JR</div>
+            <span class="text-xs font-semibold text-dark">Coach Jordan</span>
+            <span class="w-1.5 h-1.5 rounded-full bg-success ml-auto"></span>
           </div>
-          <div class="flex items-center gap-3">
-            <div class="text-[10px] text-muted">Serves</div>
-            <div class="flex-1 h-1.5 bg-cream rounded-full overflow-hidden">
-              <div class="h-full bg-success rounded-full" style="width: 68%"></div>
-            </div>
-            <span class="text-[10px] font-semibold text-success">+8%</span>
-          </div>
-          <div class="flex items-center gap-3 mt-1.5">
-            <div class="text-[10px] text-muted">Volleys</div>
-            <div class="flex-1 h-1.5 bg-cream rounded-full overflow-hidden">
-              <div class="h-full bg-success rounded-full" style="width: 45%"></div>
-            </div>
-            <span class="text-[10px] font-semibold text-success">+5%</span>
-          </div>
+          <div class="text-[10px] text-muted leading-snug">"Keep your paddle up between dinks — that's the fix."</div>
+          <div class="text-[9px] text-teal font-medium mt-1.5">Replied in 4 min</div>
         </div>
       </div>
 
       <!-- Center content -->
       <div class="text-center max-w-2xl mx-auto relative z-10">
         <h1 class="fade-up text-4xl md:text-7xl font-bold font-rounded text-dark tracking-tight leading-[1.1]">
-          Your complete<br />
-          pickleball coach.
+          One app to get better<br />
+          at pickleball.
         </h1>
         <p class="fade-up fade-up-delay-1 mt-6 md:mt-8 text-base md:text-xl text-muted font-rounded leading-relaxed max-w-lg mx-auto">
-          Log sessions, get AI coaching, talk to real coaches, run targeted drills, and watch your progress — all in one place.
+          Track skills, follow personalized drill schedules, get coaching from AI and real coaches, and log every session.
         </p>
         <div class="fade-up fade-up-delay-2 mt-8 md:mt-10">
           <a
@@ -164,15 +153,15 @@
           </div>
         </div>
 
-        <!-- Drill card -->
+        <!-- Schedule card -->
         <div class="bg-white rounded-xl shadow-sm shadow-black/5 border border-black/5 p-3.5 min-w-[200px] snap-start shrink-0">
           <div class="flex items-center justify-between mb-1.5">
-            <span class="text-[11px] font-semibold text-dark">Cross-Court Dinks</span>
-            <span class="text-[8px] bg-coral/10 text-coral px-1.5 py-0.5 rounded-full font-medium">Priority</span>
+            <span class="text-[11px] font-semibold text-dark">Today's Schedule</span>
+            <span class="text-[8px] bg-teal/10 text-teal px-1.5 py-0.5 rounded-full font-medium">3 drills</span>
           </div>
-          <div class="text-[9px] text-muted mb-1.5">15 reps remaining</div>
+          <div class="text-[9px] text-muted mb-1.5">Cross-Court Dinks — 3 x 10</div>
           <div class="h-1 bg-cream rounded-full overflow-hidden">
-            <div class="h-full bg-coral rounded-full" style="width: 40%"></div>
+            <div class="h-full bg-teal rounded-full" style="width: 33%"></div>
           </div>
         </div>
 
@@ -180,32 +169,11 @@
         <div class="bg-white rounded-xl shadow-sm shadow-black/5 border border-black/5 p-3.5 min-w-[200px] snap-start shrink-0">
           <div class="flex items-center gap-1.5 mb-1.5">
             <div class="w-5 h-5 rounded-full bg-[#A78BFA] flex items-center justify-center text-white text-[8px] font-bold shrink-0">JR</div>
-            <span class="text-[11px] font-semibold text-dark">Real Coach</span>
+            <span class="text-[11px] font-semibold text-dark">Coach Jordan</span>
             <span class="text-[8px] text-teal font-medium ml-auto">● Online</span>
           </div>
-          <div class="text-[9px] text-muted leading-snug">"Let's work on your volleys next session."</div>
-        </div>
-
-        <!-- Progress card -->
-        <div class="bg-white rounded-xl shadow-sm shadow-black/5 border border-black/5 p-3.5 min-w-[200px] snap-start shrink-0">
-          <div class="flex items-center gap-1.5 mb-1.5">
-            <span class="text-xs">📈</span>
-            <span class="text-[11px] font-semibold text-dark">Weekly Progress</span>
-          </div>
-          <div class="flex items-center gap-2">
-            <div class="text-[9px] text-muted">Serves</div>
-            <div class="flex-1 h-1 bg-cream rounded-full overflow-hidden">
-              <div class="h-full bg-success rounded-full" style="width: 68%"></div>
-            </div>
-            <span class="text-[9px] font-semibold text-success">+8%</span>
-          </div>
-          <div class="flex items-center gap-2 mt-1">
-            <div class="text-[9px] text-muted">Volleys</div>
-            <div class="flex-1 h-1 bg-cream rounded-full overflow-hidden">
-              <div class="h-full bg-success rounded-full" style="width: 45%"></div>
-            </div>
-            <span class="text-[9px] font-semibold text-success">+5%</span>
-          </div>
+          <div class="text-[9px] text-muted leading-snug">"Keep your paddle up between dinks."</div>
+          <div class="text-[8px] text-teal font-medium mt-1">Replied in 4 min</div>
         </div>
       </div>
     </div>

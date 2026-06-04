@@ -54,8 +54,14 @@
       </div>
     </div>
 
+    <!-- Response time indicator -->
+    <div class="mt-1.5 flex items-center justify-center gap-1">
+      <span class="w-1 h-1 rounded-full bg-success"></span>
+      <span class="text-[8px] text-success font-medium">Typically replies in minutes</span>
+    </div>
+
     <!-- Input bar -->
-    <div class="mt-2 bg-[#f5f5f5] rounded-full px-3 py-1.5 text-[10px] text-muted">
+    <div class="mt-1.5 bg-[#f5f5f5] rounded-full px-3 py-1.5 text-[10px] text-muted">
       Ask your coach anything...
     </div>
   </div>
